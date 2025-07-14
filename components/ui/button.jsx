@@ -1,0 +1,1 @@
+export const Button = ({ children, onClick, disabled, className, variant }) => <button onClick={onClick} disabled={disabled} className={className}>{children}</button>;
